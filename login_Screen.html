@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alakeel</title>
+    <link rel="shortcut icon" href="icons/fork-and-knife.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/login_Screen.css">
+</head>
+<body>
+    
+    <header>
+            <!-- start nav -->
+            <nav>
+                <!-- navbar -->
+                <div class="navbar">
+                    <ul>
+                        <li><a href="login_Screen.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menue</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- End navbar -->
+                <!-- right nav -->
+                <div class="right-nav">
+                    <input type="text" name="search" id="search" placeholder="Search..." style="border-radius: 12px;text-align: center; border: 2px dotted  #9A3E55; color: #9A3E55; background-color: #211B3F;">
+                </div>
+                <!-- End Right -->
+            </nav>
+            <!-- End nav -->
+    </header>
+    <main>
+        <section id="login">
+            <div class="container">
+                <div class="login-backgrond">
+                    <!-- start left coulomn -->
+                    <div class="coulme-left">
+                        <h1>Alakeel</h1>
+                        <div class="text-center">
+                            <h1>Welcome!</h1>
+                            <h2>To Our New Website Alakeel:</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, numquam?</p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#">
+                                <img src="./Images/github.png" alt="github-icon" width="30px" height="30px"></img>
+                            </a>
+                            <a href="#">
+                                <img src="./Images/twitter.png" alt="twitter-icon" width="30px" height="30px"></img>
+                            </a>
+                            <a href="#">
+                                <img src="./Images/facebook.png" alt="facebook-icon" width="30px" height="30px"></img>
+                            </a>
+                            <a href="#">
+                                <img src="./Images/instagram.png" alt="instagram-icon" width="30px" height="30px"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coulme-right">
+                        <h2>Sign In</h2>
+                        <h3 id="errorMessage" style="color: yellowgreen;"></h3>
+                        <!-- start form -->
+                        <form action="main.html" method="post"  onsubmit="return validate()">
+                            <div class="login-input">
+                                <div class="form-group">
+                                    <!-- <img src="./Images/gmail.png" alt="icon" width="30px" height="30px"> -->
+                                    <input type="text" name="userName" id="userName" placeholder=" userName">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <img src="./Images/gmail.png" alt="icon" width="30px" height="30px"> -->
+                                    <input type="email" name="email" id="email" placeholder=" Email">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <img src="./Images/lock.png" alt="icon" width="30px" height="30px"> -->
+                                    <input type="password" name="pass" id="password" placeholder=" Password">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <img src="./Images/lock.png" alt="icon" width="30px" height="30px"> -->
+                                    <input type="password" name="confirmPass" id="ConfirmPassword" placeholder=" Confirm Password">
+                                </div>
+                                <div class="text">
+                                    <div class="checked">
+                                        <input type="checkbox" name="check" id="check" checked disabled>
+                                    <label for="check">Remember me</label>
+                                    </div>
+                                    <div class="paragraph">
+                                        <a href="#">forget password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit">Sign In</button>
+                            <div class="creat-account">
+                                <p>Don't have account?</p>
+                                <a href="#">Sign up</a>
+                            </div>
+                        </form>
+                        <!-- End form -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/validate.js"></script>
+</body>
+</html>

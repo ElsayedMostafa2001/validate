@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Images/photo_2023-08-13_23-41-08.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1,h2,p,label{
+    color: #fff;
+}
+button{
+    /* font-family: 'Almarai', sans-serif; */
+    border-style: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    /* font-size: 26px; */
+    display: inline-block;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 50px;
+}
+header{
+    margin-top: 20px;
+}
+nav{
+        display: flex;
+        justify-content: space-between;
+}
+.navbar {
+    flex: 0 0 34%;
+    max-width: 34%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-nav {
+    flex: 0 0 18%;
+}
+.login-backgrond{
+    background-image: url(../Images/photo_2023-08-13_23-41-08.jpg);
+    background-position: center;
+    display: flex;
+    height: 480px;
+}
+.coulme-left{
+    flex: 0 0 65%;
+    max-width: 65%;
+    margin-top: 60px;
+}
+.coulme-left h1{
+    font-size: 43px;
+    padding-left: 60px;
+}
+.text-center{
+    margin-top: 50px;
+}
+.text-center h1{
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.text-center,.social-icons{
+    text-align: center;
+}
+.text-center p{
+    padding: 20px 100px 20px 100px;
+}
+.social-icons a{
+    padding-right: 10px;
+}
+.coulme-right{
+    flex: 0 0 35%;
+    max-width: 35%;
+    text-align: center;
+    /* border: 2px solid aqua; */
+    /* background-color: #00000087; */
+    /* background: linear-gradient(to bottom, #571f449c, #391a3cd1); */
+    backdrop-filter: blur(10px);
+}
+.coulme-right h2{
+    padding: 12% 0 20px 0;
+    color: #fff;
+    font-size: 35px;
+}
+.form-group input{
+    width: 90%;
+    height: 30px;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+::-webkit-input-placeholder{
+    color: #cd075d;
+}
+.right-nav input[type="text"]::-webkit-input-placeholder{
+    color: rgb(189, 4, 4);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.checked{
+    padding-left: 17px;
+}
+.paragraph{
+    padding-right: 17px;
+}
+button{
+    background-color: #d90926;
+    color: #fff;
+    font-size: 22px;
+    width: 90%;
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
+    margin: 30px 0 20px 0;
+}
+.creat-account p{
+    display: inline-block;
+    color: #d0d0d0;
+}
